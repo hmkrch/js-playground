@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <title>Konversi-suhu</title>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="intro">
+      <h1>Selamat Datang di Konversi Suhu</h1>
+      <p>
+        Aplikasi sederhana untuk mengonversi suhu antar satuan seperti Celsius,
+        Fahrenheit, dan Kelvin secara cepat dan akurat.
+      </p>
+      <button id="mulaiBtn">Mulai</button>
+    </div>
+
+    <!-- KONTEN -->
+
+    <h2 class="title hide">Konversi Suhu</h2>
+    <div id="displayTwo" class="container hide">
+      <div class="wrapper">
+        <div class="title-name">Pilih Suhu:</div>
+        <select name="suhu" id="pilihSuhu">
+          <option value="celcius">Celcius</option>
+          <option value="fahrenheit">Fahrenheit</option>
+        </select>
+      </div>
+      <div class="suhu-wrapper">
+        <section id="kolomC" class="">
+          <label for="">Celcius → Fahrenheit </label>
+          <input class="" id="celciusInpt" type="number" />
+        </section>
+        <section id="kolomF" class="hide">
+          <label for="">Fahrenheit → Celcius</label>
+          <input id="fahrenheitInpt" type="number" />
+        </section>
+        <button id="cekHasilBtn">Cek Hasil</button>
+      </div>
+      <section class="container-hasil">
+        <label class="hasilText" for="">Hasil:</label>
+        <h3 id="tampilkanHasil"></h3>
+      </section>
+    </div>
+
+    <!-- KONTEN -->
+  </body>
+</html>

@@ -1,0 +1,13 @@
+* membuat sebuah aplikasi konversi suhu *
+
+1. jika di klik "pilihan suhu" ke fahrenheit
+ => maka akan menganti kolom ke fahrenheit begitu sebaliknya
+ 2. user memasukkan angka (mau konversi suhu)
+ => menyimpan dan menghitung angka tersebut
+ 3. user klik "Cek Hasil" 
+ => menampilkan hasil yg sudah di hitung ke "Hasil"
+
+
+Fitur:
+ -Menambah Fitur tema gelap dan terang
+ -

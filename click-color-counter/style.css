@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f2edd1;
+}
+
+.container {
+  /* border: 1px solid; */
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.colors-box {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* border: 1px solid; */
+  margin: 10px 40px;
+}
+
+.colors-box button {
+  height: 150px;
+  width: 150px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+}
+
+.color-red {
+  background-color: red;
+  box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.9);
+}
+
+.color-green {
+  background-color: green;
+  box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.9);
+}
+
+.color-blue {
+  background-color: blue;
+  box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.9);
+}
+
+.hapus-btn {
+  background-color: yellow;
+  padding: 10px 20px;
+  /* border: 2px solid black; */
+  border: none;
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+}
+
+.color-red:hover {
+  background-color: hsl(0, 100%, 40%);
+  height: 170px;
+  width: 170px;
+}
+
+.color-green:hover {
+  background-color: hsl(120, 100%, 15%);
+  height: 170px;
+  width: 170px;
+}
+
+.color-blue:hover {
+  background-color: hsl(240, 100%, 30%);
+  height: 170px;
+  width: 170px;
+}
+
+.hapus-btn:hover {
+  padding: 15px 25px;
+  background-color: hsl(60, 100%, 60%);
+}
